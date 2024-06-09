@@ -8,6 +8,6 @@ ACCESS_TOKEN_SECRET= "any-key-you-wish"
 EXPIRES_IN = "1h"
 
 * Run this command to start the prisma studio "npx prisma studio"
-* Inside the file theres a graphql schema for query named graphqlSchema
+* Inside the file theres a graphql schema for query named graphqlSchema.txt
 * To start the project run the command  "yarn run start:dev"
 * Then go to this url in your browser http://localhost:3000/graphql
