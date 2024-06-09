@@ -1,0 +1,57 @@
+// inputs
+
+input BiometricInput {
+  biometricKey: String!
+}
+
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+input RegisterInput {
+  email: String!
+  password: String!
+}
+
+
+// response
+
+type SignResponse {
+  token: String!
+  user: User!
+}
+
+type profileResponse {
+  user: User!
+}
+
+
+// user type
+
+type User {
+  email: String!
+  id: Int!
+  password: String!
+}
+
+
+
+// mutations
+
+type Mutation {
+  biometric_login(BiometricInput: BiometricInput!): SignResponse!
+  login(LoginInput: LoginInput!): SignResponse!
+  register(RegisterInput: RegisterInput!): SignResponse!
+}
+
+
+type Query {
+  profile: profileResponse!
+}
+
+
+
+
+
+
