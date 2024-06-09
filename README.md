@@ -5,7 +5,6 @@
 your env variable should take the shape below
 DATABASE_URL="postgresql://{username}:{password}@localhost:5432/{database_name}?schema=public"
 ACCESS_TOKEN_SECRET= "any-key-you-wish"
-REFRESH_TOKEN_SECRET= "any-key-you-wish"
 EXPIRES_IN = "1h"
 
 * Run this command to start the prisma studio "npx prisma studio"
