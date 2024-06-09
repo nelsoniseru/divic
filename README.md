@@ -9,5 +9,5 @@ REFRESH_TOKEN_SECRET= "any-key-you-wish"
 EXPIRES_IN = "1h"
 
 * run this command to start the prisma studio "npx prisma studio"
-* inside the file theres a graphql schema for query name graphqlSchema
+* inside the file theres a graphql schema for query named graphqlSchema
 * to start the project run the command  "yarn run start:dev"
